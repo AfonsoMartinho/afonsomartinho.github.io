@@ -1,0 +1,7 @@
+
+
+canvas {
+    border: 10px solid transparent;
+    border-image: url(images_game/border.png) 27 27 27 27 repeat repeat;
+
+}
