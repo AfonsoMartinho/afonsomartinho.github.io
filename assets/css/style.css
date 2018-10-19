@@ -1641,7 +1641,8 @@ Icon for all respective meta
 #pre-status,
 .preload-placeholder {
 	background-image: url(../images/preloader.gif);
-	background-position: center;
+    background-position: center;
+    background-size: 200px;
 	background-repeat: no-repeat;
 	height: 200px;
 	left: 50%;
