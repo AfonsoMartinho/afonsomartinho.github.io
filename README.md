@@ -1,2 +1,2 @@
-<h1>Everything you need to know about me:</h1>
+<h1>Everything you need to know about me</h1>
 
