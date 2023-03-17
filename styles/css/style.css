@@ -233,7 +233,7 @@ h6 {
 .btn-default:hover, 
 .btn-default:focus, 
 .btn-default.focus, 
-.btn-default:active, 
+.btn-default:active,
 .btn-default.active{
     color: #29F3C3;
     background-color: #272727;
@@ -243,6 +243,10 @@ h6 {
 
 button:focus {
     outline: none;
+}
+
+.btn-cv:focus {
+    color: #29F3C3 !important;
 }
 
 
