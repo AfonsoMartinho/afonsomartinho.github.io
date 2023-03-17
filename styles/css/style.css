@@ -299,7 +299,7 @@ ul.list-check li::before {
     text-align: center;
     font-size: 50px;
     line-height: 50px;
-    color: #29F3C3;
+    color: #29f1c2;
     position: relative;
 }
 
@@ -313,6 +313,16 @@ ul.list-check li::before {
     right: 0;
     bottom: -40px;
     margin: 0 auto;
+}
+
+.cv-cta {
+    color: #fafafa;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.cv-cta:hover {
+    color: #29f1c2;
 }
 
 
@@ -1003,6 +1013,80 @@ Resume Timeline
     color: white;
 }
 
+.cv-section {
+    background-color: #1a1e23;
+    color: #fafafa;
+    padding-top: 48px;
+}
+
+.cv-section .container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cv {
+    border-radius: 4px;
+    border: 2px solid #29F3C3;
+    color: #29F3C3;
+    display: inline-block;
+    margin: 0 .25em;
+    overflow: hidden;
+    padding: 24px 60px 24px 16px;
+    position: relative;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.btn-cv .btn-content {
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0 26px;
+    position: relative;
+    right: 0;
+    transition: right 300ms ease;
+    display: block;
+    text-align: left;
+}
+
+.btn-cv .icon {
+    border-left: 1px solid #29F3C3;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transition: all 300ms ease;
+    transform: translateY(-50%);
+    width: 58px;
+    height: 100%;
+}
+
+.btn-cv .icon i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-cv ::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #29F3C3;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+.btn-cv:hover .btn-content {
+    right: 150%;
+}
+.btn-cv:hover .icon {
+    border-left: 0;
+      font-size: 1.8em;
+      width: 100%;
+      color: #29F3C3;
+}
 
 
 /* progress-bar */
@@ -1096,8 +1180,6 @@ Resume Timeline
 .angular{margin-top:100px;}
 .angular .chart {margin-top:0;}
 .chart .chart-text h3{font-size:22px;}
-
-
 
 /* === Work Section === */
 .works-section {
@@ -1524,9 +1606,9 @@ Icon for all respective meta
 
 /* === Footer Wrapper === */
 .footer-wrapper {
-    background: #1a1e23;
+    background: #272727;
     padding:  10px;
-    color: #272727;
+    color: #fafafa;
   
 }
 .copyright p {
