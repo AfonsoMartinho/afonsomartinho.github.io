@@ -452,11 +452,11 @@ SOCIAL ICON
     width: 100%;
     z-index: 998;
     padding-bottom: 1px;
-    background: #272727;
+    background: #1a1e23;
 }
 
 .header::after {
-    border-bottom:1px solid black;
+    border-bottom:1px solid #29F3C3;
     width: 100%;
     position: absolute;
     content: "";
@@ -476,7 +476,7 @@ SOCIAL ICON
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-    background: #272727;
+    background: #1a1e23;
     padding: 0;
 }
 
