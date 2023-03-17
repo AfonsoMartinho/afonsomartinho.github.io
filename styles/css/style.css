@@ -34,8 +34,8 @@ body{
     line-height: 28px;
     font-weight: 300;
     font-size: 14px;
-    color:#282828;
-    background-color: #fff;
+    color:#fafafa;
+    background-color: #272727;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
     -webkit-font-smoothing: antialiased !important;
@@ -48,7 +48,7 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: #29F3C3;
 }
 a,
 a > * {
@@ -146,7 +146,7 @@ h6 {
 }
 
 .form-control:focus {
-    border-color: #68c3a3;
+    border-color: #29F3C3;
     box-shadow: none;
 }
 
@@ -191,7 +191,8 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
-    background-color:#68c3a3;
+    color: #272727;
+    background-color:#29F3C3;
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -201,7 +202,7 @@ h6 {
 .btn-primary:active, 
 .btn-primary.active, 
 .open>.dropdown-toggle.btn-primary {
-    color: #fff;
+    color: #272727;
     background-color: #4eb28f;
     border-color: #4eb28f;
 }
@@ -218,7 +219,7 @@ h6 {
 .btn-info:active, 
 .btn-info.active, 
 .open>.dropdown-toggle.btn-info {
-    color: #fff;
+    color: #272727;
     background-color: #4aa0c2;
     border-color: #4aa0c2;
 }
@@ -226,17 +227,17 @@ h6 {
 /*btn-default*/
 .btn-default {
     background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #272727;
+    color: #272727;
 }
 .btn-default:hover, 
 .btn-default:focus, 
 .btn-default.focus, 
 .btn-default:active, 
 .btn-default.active{
-    color: #68c3a3;
-    background-color: #fff;
-    border-color: #fff;
+    color: #29F3C3;
+    background-color: #272727;
+    border-color: #272727;
 }
 
 
@@ -280,7 +281,7 @@ ul.list-check li{
 ul.list-check li::before {
     content: "\f00c";
     font-family: fontawesome;
-    color: #68c3a3;
+    color: #29F3C3;
     margin-right: 10px;
 }
 
@@ -298,7 +299,7 @@ ul.list-check li::before {
     text-align: center;
     font-size: 50px;
     line-height: 50px;
-    color: #2c3e50;
+    color: #29F3C3;
     position: relative;
 }
 
@@ -364,7 +365,7 @@ ul.list-check li::before {
 	color: #52b3d9;
 }
 .intro h1 span{
-	color: #68c3a3;
+	color: #29F3C3;
 }
 .intro p{
 	color: #f7f7f7;
@@ -372,7 +373,7 @@ ul.list-check li::before {
 }
 
 .intro-sub {
-	color: #fff;
+	color: #272727;
 	font-size: 24px;
 	line-height: 32px;
 	font-weight: 700;
@@ -389,7 +390,7 @@ SOCIAL ICON
 }
 .social-icons a i{
     position: relative;
-    color: #fff;
+    color: #272727;
     font-size: 18px;
     margin: 0 7px;
     line-height: 40px;
@@ -410,7 +411,7 @@ SOCIAL ICON
     top: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid #272727;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
@@ -424,7 +425,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #68c3a3;
+    background: #29F3C3;
     border: 1px solid transparent;
     z-index: 0;
 }
@@ -437,7 +438,7 @@ SOCIAL ICON
     width: 100%;
     z-index: 998;
     padding-bottom: 1px;
-    background: white;
+    background: #272727;
 }
 
 .header::after {
@@ -461,7 +462,7 @@ SOCIAL ICON
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-    background: white;
+    background: #272727;
     padding: 0;
 }
 
@@ -475,7 +476,7 @@ SOCIAL ICON
     visibility: hidden;
     opacity:0;
     border: 1px solid black;
-    border-top: 2px solid #68c3a3;
+    border-top: 2px solid #29F3C3;
     border-radius: 0;
     border-bottom: 3px double black;
     background-color: black;
@@ -497,7 +498,7 @@ SOCIAL ICON
 }
 
 .navbar-custom .navbar-nav > li > a{
-    color: #282828;
+    color: #fafafa;
     font-size: 14px;
     font-weight: 700;
     padding-top: 20px;
@@ -515,7 +516,7 @@ SOCIAL ICON
 
 .navbar-custom .dropdown-menu > li > a {
     padding: 10px 20px;
-    color: #282828;
+    color: #fafafa;
     font-size: 14px;
     font-weight: 700;
 }
@@ -526,7 +527,7 @@ SOCIAL ICON
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #68c3a3;
+    color: #29F3C3;
 }
 
 .navbar-custom .navbar-brand {
@@ -581,7 +582,7 @@ SOCIAL ICON
 /*download-button*/
 .download-button a {
     margin-right: 20px;
-    color: #fff;
+    color: #272727;
 }
 .download-button a i {
     margin-right: 10px;
@@ -645,7 +646,7 @@ SOCIAL ICON
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #fff;
+    color: #272727;
     padding: 0 20px;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
@@ -656,16 +657,16 @@ SOCIAL ICON
 
 .video-intro a {
     display: inline-block;
-    color: #fff;
+    color: #272727;
     width: 70px;
     height: 60px;
     line-height: 60px;
     font-size: 30px;
-    border: 1px solid #fff;
+    border: 1px solid #272727;
 }
 .video-intro a:hover {
-    color: #68c3a3;
-    background-color: #fff;
+    color: #29F3C3;
+    background-color: #272727;
     border: 1px solid transparent;
 }
 
@@ -790,7 +791,7 @@ Resume Timeline
 .timeline>li .posted-date {
     position: relative;
     text-align: center;
-    background-color: #fff;
+    background-color: #272727;
     left: 20px;
 }
 
@@ -800,7 +801,7 @@ Resume Timeline
     line-height: 20px;
     font-weight: 700;
     display: block;
-    color: #2c3e50;
+    color: #29F3C3;
     top: 0;
     float: left;
 }
@@ -855,7 +856,7 @@ Resume Timeline
 .timeline>li .posted-date {
     position: absolute;
     text-align: center;
-    background-color: #fff;
+    background-color: #272727;
 }
 
 .timeline>li .timeline-panel {
@@ -869,7 +870,7 @@ Resume Timeline
 .timeline-content{
     position: relative;
     padding: 24px;
-    background-color: #fff;
+    background-color: #272727;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -888,8 +889,8 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
-    color: #fff;
+    background: #29F3C3;
+    color: #272727;
 }
 
 .timeline>li .timeline-panel::before,
@@ -909,7 +910,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #29F3C3;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -921,7 +922,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #29F3C3;
     border-left: 0;
 }
 
@@ -936,27 +937,27 @@ Resume Timeline
 .timeline>li .timeline-panel::after {
     left: 100%;
     margin-left: -2px;
-    border-left: 12px solid #FFFFFF;
+    border-left: 12px solid #272727272727;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #29F3C3;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
     right: 100%;
     margin-right:-2px;
-    border-right: 12px solid #FFFFFF;
+    border-right: 12px solid #272727272727;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #29F3C3;
     border-left: 0;
 }
 
@@ -978,14 +979,14 @@ Resume Timeline
 /* === Skill Section === */
 .skills-section {
     background-color: #1a1e23;
-    color: #fff;   
+    color: #fafafa;   
 }
 .skills-section .section-title{
-    color: #fff;
+    color: #29F3C3;
     margin-bottom: 110px;  
 }
 .skills-section .section-title h2{
-    color: #fff;
+    color: #29F3C3;
 }
 .skill-title {
     width: 25%;
@@ -996,6 +997,10 @@ Resume Timeline
     font-weight: 400;
     margin-top: -6px;
     text-transform: capitalize;
+}
+.skills-section .fab,
+.skills-section .fas {
+    color: white;
 }
 
 
@@ -1015,7 +1020,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: #29F3C3;
 }
 .progress-bar span{
     position: absolute;
@@ -1104,7 +1109,7 @@ Resume Timeline
     min-height: 235px;
 }
 .portfolio-bg{
-   background: #fff;
+   background: #272727;
    padding: 5px;
    margin-bottom: 20px;
    border: 1px solid #eee;
@@ -1126,7 +1131,7 @@ Resume Timeline
 
 
 #filter li a {
-    color: #68c3a3;
+    color: #29F3C3;
     display: block;
     text-transform: uppercase;
     padding: 0 15px;
@@ -1136,8 +1141,8 @@ Resume Timeline
 #filter li a.active,
 #filter li a:hover {
     position: relative;
-    background: #68c3a3;
-    color: #fff;
+    background: #29F3C3;
+    color: #272727;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
 
@@ -1193,13 +1198,13 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #68c3a3;
+    color: #29F3C3;
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
 }
 .links a:hover i {
-   color:  #fff;
+   color:  #272727;
 }
 .links a i::after{
     position: absolute;
@@ -1208,7 +1213,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #68c3a3;
+    border: 1px solid #29F3C3;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1218,15 +1223,15 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: #29F3C3;
 }
 
 .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #68c3a3;
-    color: #fff;
+    background-color: #29F3C3;
+    color: #272727;
     height: 45px;
     width: 100%;
     text-align: center;
@@ -1284,7 +1289,7 @@ Resume Timeline
     background: url(../../assets/images/counter-bg.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;  
+    color: #272727;  
 }
 
 .tt-overlay-bg {
@@ -1324,7 +1329,7 @@ Resume Timeline
     position: absolute;
     bottom: -8px;
     right: 30px;
-    color: #fff;
+    color: #272727;
     font-size: 18px;
     z-index: 100;
 }
@@ -1335,7 +1340,7 @@ Resume Timeline
     top: -10px;
     width: 40px;
     height: 40px;
-    background-color: #68c3a3;
+    background-color: #29F3C3;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1384,10 +1389,10 @@ Resume Timeline
     font-weight: 700;
 }
 .entry-title a{
-    color: #282828;
+    color: #fafafa;
 }
 .entry-title a:hover{
-    color: #68c3a3;
+    color: #29F3C3;
 }
 .entry-meta {
     color: #afafaf;
@@ -1404,7 +1409,7 @@ Resume Timeline
     font-weight: 400;
 }
 .entry-meta ul li a:hover{
-    color: #68c3a3;
+    color: #29F3C3;
 }
 
 .blog-more {
@@ -1446,17 +1451,17 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #29F3C3;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;  
+    color: #272727;  
 }
 .hire-section-bg {
     padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
+    background: -webkit-linear-gradient(bottom, #29F3C3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #29F3C3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, #29F3C3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #29F3C3, rgba(104, 195, 163, 0.7)); /*Standard*/
 }
 
 .hire-section h2 {
@@ -1521,7 +1526,7 @@ Icon for all respective meta
 .footer-wrapper {
     background: #1a1e23;
     padding:  10px;
-    color: #fff;
+    color: #272727;
   
 }
 .copyright p {
@@ -1552,12 +1557,12 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #29F3C3;
 	display: block;
 	width: 28px;
 	height: 28px;
 	text-align: center;
-	color: #fff;
+	color: #272727;
 	font-size: 14px;
 	line-height: 28px;
 }
@@ -1576,7 +1581,7 @@ Icon for all respective meta
 	position: absolute;
 	left: 50%;
 	bottom: 40px;
-	border: 2px solid #fff;
+	border: 2px solid #272727;
 	border-radius: 16px;
 	height: 50px;
 	width: 30px;
@@ -1603,7 +1608,7 @@ Icon for all respective meta
 .mouse-icon .wheel {
 	position: relative;
 	border-radius: 10px;
-	background: #fff;
+	background: #272727;
 	width: 4px;
 	height: 10px;
 	top: 4px;
@@ -1629,7 +1634,7 @@ Icon for all respective meta
 /* ---------------------------------------------- */
 
 #tt-preloader {
-	background: #FFF;
+	background: #272727;
 	bottom: 0;
 	left: 0;
 	position: fixed;
