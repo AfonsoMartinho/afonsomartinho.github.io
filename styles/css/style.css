@@ -190,7 +190,7 @@ h6 {
 }
 
 /*btn-primary*/
-.btn-primary{
+.btn-primary {
     color: #272727;
     background-color:#29F3C3;
     border-color: rgba(51, 51, 51, 0.15);
@@ -234,10 +234,27 @@ h6 {
 .btn-default:focus, 
 .btn-default.focus, 
 .btn-default:active,
-.btn-default.active{
+.btn-default.active {
     color: #29F3C3;
     background-color: #272727;
     border-color: #272727;
+}
+
+.btn-small {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-outlined {
+    color: #29F3C3;
+    background-color: transparent;
+    border: 1px solid#29F3C3;
+}
+
+.btn-outlined:hover {
+    background-color: rgba(58, 65, 73, 0.341);
+    color: #29F3C3;
 }
 
 
@@ -547,13 +564,16 @@ SOCIAL ICON
 .navbar-custom .navbar-brand {
     font-weight: 700;
     font-size: 18px;
+    height: 100%;
 
 }
 .navbar-custom .navbar-brand > img{
-    height: 45px;
-    margin-top: -7px;
-    margin-left: -30px;
+    height: 60px;
 }
+.navbar-custom .navbar-brand > img:hover{
+    filter: saturate(40%)
+}
+
 .navbar-custom .nav .open > a,
 .navbar-custom .dropdown-menu > li > a:hover,
 .navbar-custom .dropdown-menu > li > a:focus {
@@ -562,6 +582,12 @@ SOCIAL ICON
 
 .navbar-custom .navbar-toggle .icon-bar {
     background: #222;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
