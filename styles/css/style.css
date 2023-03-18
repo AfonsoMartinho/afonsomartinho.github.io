@@ -464,16 +464,16 @@ SOCIAL ICON
 
 /* === NAVIGATION === */
 .header {
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     position: relative;
     width: 100%;
     z-index: 998;
     padding-bottom: 1px;
-    background: #1a1e23;
+    background: #272727fa;
+    box-shadow:  1px 3px 1px rgba(34, 28, 28, 0.65);
 }
 
 .header::after {
-    border-bottom:1px solid #29F3C3;
     width: 100%;
     position: absolute;
     content: "";
@@ -493,7 +493,6 @@ SOCIAL ICON
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-    background: #1a1e23;
     padding: 0;
 }
 
@@ -648,12 +647,17 @@ SOCIAL ICON
 
 .myphoto{
     position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
     background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
-    background-size: contain;
+    background-size: 56% 50px;
 }
 
 .myphoto img{
     position: relative;
+    width: 55%;
     z-index: -1;
 }
 
