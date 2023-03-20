@@ -599,6 +599,10 @@ SOCIAL ICON
 
 /* === About Section === */
 
+.about-section {
+    padding-top: 64px;
+}
+
 .short-info {
     margin-bottom: 40px;
 }

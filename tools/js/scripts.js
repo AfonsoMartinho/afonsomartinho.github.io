@@ -30,7 +30,7 @@ jQuery(function ($) {
     /* ---------------------------------------------- */
 
     $(window).ready(function() {
-        $('#tt-preloader').delay(3000).fadeOut('fast'); 
+        $('#tt-preloader').delay(2900).fadeOut('medium'); 
  
     });
 
