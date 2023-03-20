@@ -21,6 +21,10 @@
 		display:none;
 	}
 
+	.navbar-custom .navbar-brand > img {
+		height: 30px;
+	}
+
 	.navbar-custom .navbar-brand,
 	.navbar-custom .navbar-nav > li > a,
 	.navbar-custom .navbar-nav .dropdown-menu > li > a {
@@ -29,6 +33,10 @@
 
 	.navbar-custom .dropdown-menu{
 		margin-left: 20px;
+	}
+
+	.navbar-right {
+		display: block;
 	}
 
 	/*about me section*/

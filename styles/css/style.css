@@ -336,6 +336,12 @@ ul.list-check li::before {
     margin: 0 auto;
 }
 
+.section-title > .my-position {
+    color: #fafafa;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
 .cv-cta {
     color: #fafafa;
     text-decoration: underline;
@@ -580,7 +586,7 @@ SOCIAL ICON
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-    background: #222;
+    background: #fafafa;
 }
 
 .navbar-right {
@@ -659,6 +665,7 @@ SOCIAL ICON
     position: relative;
     width: 55%;
     z-index: -1;
+    border: 1px solid #272727;
 }
 
 .biography ul{
@@ -727,9 +734,6 @@ Resume Timeline
 -----------------------------------------------------------*/
 .resume-title h3{
     text-align: center;
-}
-.resume-section{
-    margin-top: -200px;
 }
 .resume-section > div > div{
     margin-bottom: 60px;
@@ -1048,7 +1052,6 @@ Resume Timeline
 }
 
 .cv-section {
-    background-color: #1a1e23;
     color: #fafafa;
     padding-top: 48px;
 }
