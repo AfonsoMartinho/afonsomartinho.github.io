@@ -10,27 +10,22 @@
   <!-- Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
   <!-- Bootstrap core CSS -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="./tools/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <!-- Font Awesome CSS -->
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="styles/css/font-awesome.min.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <!-- Animate css -->
-  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="styles/css/animate.css" rel="stylesheet">
   <!-- Magnific css -->
-  <link href="assets/css/magnific-popup.css" rel="stylesheet">
+  <link href="styles/css/magnific-popup.css" rel="stylesheet">
   <!-- Custom styles CSS -->
-  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <link href="styles/css/style.css" rel="stylesheet" media="screen">
   <!-- Responsive CSS -->
-  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link href="styles/css/responsive.css" rel="stylesheet">
 
 
 
-  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-
+  <link rel="shortcut icon" href="./assets/ico/favicon.svg">
 </head>
 
 <body>
@@ -52,7 +47,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.svg" alt="" >
+            <img src="./assets/images/logo.svg" alt="" >
           </a>
         </div>
 
@@ -62,13 +57,20 @@
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#cv">CV</a>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a target="_blank" href="./assets/pdfs/AfonsoMartinhoEn.pdf">
+                <button class="btn btn-outlined btn-small">
+                  Resume
+                </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -82,28 +84,33 @@
   <!-- About Section -->
   <section id="about" class="about-section section-padding">
     <div class="container">
-      <h2 class="section-title wow fadeInUp">Afonso Martinho</h2>
+      <div class="section-title">
+        <h2 class="wow fadeInUp">Afonso Martinho</h2>
+        <h3 class="my-position">Web Developer</h3>
+      </div>
 
       <div class="row">
 
         <div class="col-md-4 col-md-push-8">
           <div class="biography">
             <div class="myphoto">
-              <img src="images/myphoto.png" alt="">
+              <img src="./assets/images/myphoto.png" alt="">
             </div>
             <ul>
               <li>
                 <strong>Name:</strong> Afonso Martinho</li>
               <li>
-                <strong>Date of birth:</strong> 05 10 1992</li>
+                <strong>Date of birth:</strong> 05/10/1992</li>
               <li>
-                <strong>Address:</strong> Rua Martim Moniz 1144, Portugal</li>
+                <strong>From:</strong> Porto, Portugal</li>
               <li>
-                <strong>Nationality:</strong> Portuguese</li>
+                <strong>Languages:</strong> Portuguese, English, Spanish</li>
               <li>
                 <strong>Phone:</strong> +351 910 792 940</li>
               <li>
                 <strong>Email:</strong> am.devlops@gmail.com</li>
+              <li>
+                <a class="cv-cta" target="_blank" href="./assets/pdfs/AfonsoMartinhoEn.pdf"> View my resume here →</a></li>
             </ul>
           </div>
         </div>
@@ -114,28 +121,26 @@
             <h3>About me</h3>
             <p>
               My name is Afonso Vieira Campos Leça Martinho, I live in Oporto, Portugal and I’m a web developer.
-              I am 28 years old and live in this beautiful city with my parents and sister.
+              I am 30 years old and live in this beautiful city with my wife and dog.
               In my spare time I like to surf, play tennis, paddle and football.
               I also play the guitar since I was 15 and enjoy listening to all types of music. 
               I consider myself a giving and sociable person who loves hanging out with friends and explore other countries cultures.
-              I´m also very persistent, when a challenge is in front of me, I need to overcome it, and if I don’t, Ill try it until I do.
-              Mostly that’s a good thing but I believe sometimes people need to press the pause button for a while and “think outside the box”,
-              that’s the main difference between those who “do” from those who create.
             </p>
           </div>
 
           <div class="short-info wow fadeInUp" style="margin-top:100px;">
             <h3>What i do</h3>
             <p>
-              I am a Web Developer with a lot of passion for programming. 
-              I am looking for a new project in a solid team with the goal of applying my web development solutions, solving problems and sharing ideas.
+              I am a Web Developer with a lot of passion for programming. Mostly, I've been working with <b>Frontend Technologies</b> in multidisciplinary teams with <b>Agile/Scrum methodologies</b>. 
+              In my day-to-day work, I code mainly in <b>React</b> and <b>Typescript</b> projects using CSS preprocessors like <b>SCSS and Sass</b>. Some medium-sized projects are state managed with <b>Redux</b> and others with <b>MobX</b>. All the projects are <b>End-to-End</b> and <b>Unit tested</b> with enzyme and Jest. </br>
+              <p>Here you can have a look of some of my main <b>general skills:</b></b>
             </p>
 
             <ul class="list-check">
               <li>Frontend Development</li>
-              <li>Backend Development</li>
-              <li>Web Design</li>
-              <li>Database Modeling</li>
+              <li>UI Development</li>
+              <li>JavaScript Frameworks</li>
+              <li>Full-stack Development</li>
             </ul>
           </div>
         </div>
@@ -145,15 +150,302 @@
     <!-- /.container -->
   </section>
   <!-- End About Section -->
-  <!-- Resume Section -->
-  <section id="resume" class="resume-section section-padding">
+  <!-- Experience Section -->
+  <section id="experience" class="resume-section">
     <div class="container">
-      <h2 class="section-title wow fadeInUp">Resume</h2>
+      <h2 class="section-title wow fadeInUp">Experience</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="resume-title">
-            <h3>Education</h3>
+          <div class="resume">
+            <ul class="timeline">
+              <li>
+                <div class="posted-date">
+                  <span class="month">20222-Present</span>
+                </div>
+                <!-- /posted-date -->
+
+                <div class="timeline-panel wow fadeInUp">
+                  <div class="timeline-content">
+                    <div class="timeline-heading">
+                      <h3>Frontend Developer</h3>
+                      <span>Namecheap, Inc</span>
+                    </div>
+                    <!-- /timeline-heading -->
+
+                    <div class="timeline-body">
+                      <p>
+                        ReactJS and Typescript web apps<br/>
+                        Web Pages with SEO and Performance enhancement<br/>                        
+                        Multiple projects developed simultaneously <br />
+                        Agile scrum methodologies<br/>
+                      </p>
+                    </div>
+                    <!-- /timeline-body -->
+                  </div>
+                  <!-- /timeline-content -->
+                </div>
+                <!-- /timeline-panel -->
+              </li>
+
+              <li  class="timeline-inverted">
+                <div class="posted-date">
+                  <span class="month">2021-2022</span>
+                </div>
+                <!-- /posted-date -->
+
+                <div class="timeline-panel wow fadeInUp">
+                  <div class="timeline-content">
+                    <div class="timeline-heading">
+                      <h3>UI Developer</h3>
+                      <span>Namecheap, Inc</span>
+                    </div>
+                    <!-- /timeline-heading -->
+
+                    <div class="timeline-body">
+                      <p>
+                        ReactJS and Typescript web apps <br />
+                        Middleware Prototypingv<br />
+                        ReactJS Design System component development
+                      </p>
+                    </div>
+                    <!-- /timeline-body -->
+                  </div>
+                  <!-- /timeline-content -->
+                </div>
+                <!-- /timeline-panel -->
+              </li>
+  
+              <li>
+                <div class="posted-date">
+                  <span class="month">2019-2020</span>
+                </div>
+                <!-- /posted-date -->
+
+                <div class="timeline-panel wow fadeInUp">
+                  <div class="timeline-content">
+                    <div class="timeline-heading">
+                      <h3>Frontend Developer</h3>
+                      <span>Innovation Makers</span>
+                    </div>
+                    <!-- /timeline-heading -->
+
+                    <div class="timeline-body">
+                      <p>
+                        Development of front end Backoffices for Banco de Comércio e Indústria and ENDE-Angola websites. 
+                        Creation of web forms for the Champalimaud Foundation. Bug fixing in several existing Information Systems. 
+                      </p>
+                    </div>
+                    <!-- /timeline-body -->
+                  </div>
+                  <!-- /timeline-content -->
+                </div>
+                <!-- /timeline-panel -->
+              </li>
+
+              <li  class="timeline-inverted">
+                <div class="posted-date">
+                  <span class="month">2018</span>
+                </div>
+                <!-- /posted-date -->
+
+                <div class="timeline-panel wow fadeInUp">
+                  <div class="timeline-content">
+                    <div class="timeline-heading">
+                      <h3>Backend Developer</h3>
+                      <span>Planeta Virtual</span>
+                    </div>
+                    <!-- /timeline-heading -->
+
+                    <div class="timeline-body">
+                      <p>
+                        Development of a web information system for the management of services and database of Boavista FC. 
+                      </p>
+                    </div>
+                    <!-- /timeline-body -->
+                  </div>
+                  <!-- /timeline-content -->
+                </div>
+                <!-- /timeline-panel -->
+              </li>
+
+              <li>
+                <div class="posted-date">
+                  <span class="month">2016-2017</span>
+                </div>
+                <!-- /posted-date -->
+
+                <div class="timeline-panel wow fadeInUp">
+                  <div class="timeline-content">
+                    <div class="timeline-heading">
+                      <h3>Fullstack Developer</h3>
+                      <span>Alquimia da Cor</span>
+                    </div>
+                    <!-- /timeline-heading -->
+
+                    <div class="timeline-body">
+                      <p>
+                        Development of a web information system for the internal and external management of the "Liga Portuguesa de Cavalos de Corrida". 
+                      </p>
+                    </div>
+                    <!-- /timeline-body -->
+                  </div>
+                  <!-- /timeline-content -->
+                </div>
+                <!-- /timeline-panel -->
+              </li>
+            </ul>
           </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- End Experience Section -->
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">Main Skills</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-html5" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">HTML</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-css3" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">CSS</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex;justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-js" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Javascript</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-vuejs" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Vuejs</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <img src="./assets/images/react.png" style="width: 48px; margin-right: 40px;"/>
+              <h3 style="width:30%">ReactJs</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+        </div>
+        <!-- /.col-md-6 -->
+
+        <div class="col-md-4">
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fas fa-file-invoice-dollar" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Jquery</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-microsoft" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">.NET</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fas fa-database" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">SQL</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <img src="./assets/images/c-logo.png" style="width: 48px; margin-right: 40px;"/>
+              <h3 style="width:30%">C#</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <img src="./assets/images/typescript.png" style="width: 48px; margin-right: 40px;"/>
+              <h3 style="width:30%">Typescript</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+        </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-4">
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-java" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Java</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-php" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">PHP</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-node-js" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Node.js</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-sass" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Sass</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+
+          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
+              <i class="fab fa-git" style="font-size: 48px; margin-right: 40px;"></i>
+              <h3 style="width:30%">Git</h3>
+            </div>
+          </div>
+          <!-- /.skill-progress -->
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+      <!-- /.container -->
+  </section>
+  <!-- End Skills Section -->
+  <!-- Education Section -->
+  <section id="education" class="resume-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">Education</h2>
+      <div class="row">
+        <div class="col-md-12">
           <div class="resume">
             <ul class="timeline">
               <li>
@@ -234,238 +526,23 @@
           </div>
         </div>
       </div>
-      <!-- /row -->
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="resume-title">
-            <h3>Experience</h3>
-          </div>
-          <div class="resume">
-            <ul class="timeline">
-              <li>
-                <div class="posted-date">
-                  <span class="month">02/2019-07/2020</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-                    <div class="timeline-heading">
-                      <h3>Frontend Developer</h3>
-                      <span>Innovation Makers</span>
-                    </div>
-                    <!-- /timeline-heading -->
-
-                    <div class="timeline-body">
-                      <p>
-                        Development of front end Backoffices for Banco de Comércio e Indústria and ENDE-Angola websites. 
-                        Creation of web forms for the Champalimaud Foundation. Bug fixing in several existing Information Systems. 
-                      </p>
-                    </div>
-                    <!-- /timeline-body -->
-                  </div>
-                  <!-- /timeline-content -->
-                </div>
-                <!-- /timeline-panel -->
-              </li>
-
-              <li  class="timeline-inverted">
-                <div class="posted-date">
-                  <span class="month">02/2018-07/2018</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-                    <div class="timeline-heading">
-                      <h3>Backend Developer</h3>
-                      <span>Planeta Virtual</span>
-                    </div>
-                    <!-- /timeline-heading -->
-
-                    <div class="timeline-body">
-                      <p>
-                        Development of a web information system for the management of services and database of Boavista FC. 
-                      </p>
-                    </div>
-                    <!-- /timeline-body -->
-                  </div>
-                  <!-- /timeline-content -->
-                </div>
-                <!-- /timeline-panel -->
-              </li>
-
-              <li>
-                <div class="posted-date">
-                  <span class="month">09/2016-02/2017</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-                    <div class="timeline-heading">
-                      <h3>Fullstack Developer</h3>
-                      <span>Alquimia da Cor</span>
-                    </div>
-                    <!-- /timeline-heading -->
-
-                    <div class="timeline-body">
-                      <p>
-                        Development of a web information system for the internal and external management of the "Liga Portuguesa de Cavalos de Corrida". 
-                      </p>
-                    </div>
-                    <!-- /timeline-body -->
-                  </div>
-                  <!-- /timeline-content -->
-                </div>
-                <!-- /timeline-panel -->
-              </li>
-            </ul>
-          </div>
-        </div>
+          <!-- CV Section -->
+  <section id="cv" class="cv-section">
+    <div class="container">
+      <div class="text-center">
+        <a class="btn btn-cv" target="_blank" href="./assets/pdfs/AfonsoMartinhoEn.pdf">
+          <span class="btn-content"> View my cv</span>
+          <span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+        </a>
       </div>
+    </div>
+  </section>
+  <!-- End CV Section -->
       <!-- /row -->
     </div>
     <!-- /.container -->
   </section>
-  <!-- End Resume Section -->
-
-
-  <!-- Skills Section -->
-  <section id="skills" class="skills-section section-padding">
-    <div class="container">
-      <h2 class="section-title wow fadeInUp">Main Skills</h2>
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-html5" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">HTML</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-css3" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">CSS</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex;justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-js" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Javascript</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-vuejs" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Vuejs</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-        </div>
-        <!-- /.col-md-6 -->
-
-        <div class="col-md-4">
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fas fa-file-invoice-dollar" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Jquery</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-microsoft" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">.NET</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fas fa-database" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">SQL</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <img src="./images/c-logo.png" style="width: 48px; margin-right: 40px;"/>
-              <h3 style="width:30%">C#</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-        </div>
-        <!-- /.col-md-6 -->
-        <div class="col-md-4">
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-java" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Java</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-php" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">PHP</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-node-js" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Node.js</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-
-          <div class="skill-progress" style="display: flex; justify-content: center; margin-bottom: 20px;">
-            <div class="skill-title" style="display: flex; align-items: center; justify-content:center;">
-              <i class="fab fa-sass" style="font-size: 48px; margin-right: 40px;"></i>
-              <h3 style="width:30%">Sass</h3>
-            </div>
-          </div>
-          <!-- /.skill-progress -->
-        </div>
-      </div>
-      <!-- /.row -->
-
-
-      <!-- /.container -->
-  </section>
-  <!-- End Skills Section -->
-
-
-  <!-- Works Section -->
-  <section id="cv" class="cv-section section-padding">
-    <div class="container">
-      <h2 class="section-title wow fadeInUp">My CV</h2>
-      <div class="text-center">
-        <a class="btn btn-primary" style="width:130px;" target="_blank" href="assets/pdfs/AfonsoMartinhoEn.pdf">
-          View
-        </a>
-      </div>
-
-
-
-
-  </section>
-  <!-- End Works Section -->
-
-
+  <!-- End Education Section -->
 
 
   <!-- Footer Section -->
@@ -479,7 +556,7 @@
         </div>
         <div class="col-md-4">
           <div class="text-center copyright">
-            <img src="assets/images/logoText.svg" alt="">
+            <img src="./assets/images/logoText.svg" alt="">
           </div>
         </div>
         <div class="col-md-4">
@@ -501,20 +578,20 @@
   </div>
 
   <!-- Javascript files -->
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.stellar.min.js"></script>
-  <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery.countTo.js"></script>
-  <script src="assets/js/jquery.inview.min.js"></script>
-  <script src="assets/js/jquery.easypiechart.js"></script>
-  <script src="assets/js/jquery.shuffle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/froog/javascript/froogaloop.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  <script src="./tools/js/jquery.js"></script>
+  <script src="./tools/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./tools/js/jquery.stellar.min.js"></script>
+  <script src="./tools/js/jquery.sticky.js"></script>
+  <script src="./tools/js/smoothscroll.js"></script>
+  <script src="./tools/js/wow.min.js"></script>
+  <script src="./tools/js/jquery.countTo.js"></script>
+  <script src="./tools/js/jquery.inview.min.js"></script>
+  <script src="./tools/js/jquery.easypiechart.js"></script>
+  <script src="./tools/js/jquery.shuffle.min.js"></script>
+  <script src="./tools/js/jquery.magnific-popup.min.js"></script>
+  <script src="./tools/froog/javascript/froogaloop.js"></script>
+  <script src="./tools/js/jquery.fitvids.js"></script>
+  <script src="./tools/js/scripts.js"></script>
 </body>
 
 </html>
